@@ -1,0 +1,22 @@
+{
+  "name": "puppeteer_demo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node /src/baidu.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barry7/puppeteer_demo"
+  },
+  "author": "barry7",
+  "license": "MIT",
+  "engines": {
+    "node": "10.x.x"
+  },
+  "devDependencies": {
+    "puppeteer": "latest"
+  },
+  "dependencies": {
+    "puppeteer": "latest"
+  }
+}
