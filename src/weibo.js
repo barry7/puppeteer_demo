@@ -7,6 +7,7 @@ const _weibo_password = '';
 const _keyword = '';
 let bro;
 let target_num = 1;
+let data = [];
 
 async function addCookies(cookies_str, page, domain) {
     let cookies = cookies_str.split(';').map(pair => {
@@ -48,7 +49,6 @@ async function addCookies(cookies_str, page, domain) {
         timeout: 0
     });
     let pagenum = 0;
-    let data = [];
     while (pagenum++ < target_num) {
         console.log('开始爬取第' + pagenum + '页内容，已爬取' + data.length + '条内容');
         await page.waitFor(Math.random * 500);
@@ -68,6 +68,7 @@ async function addCookies(cookies_str, page, domain) {
                     let comments = wrap.querySelector('.card-act ul li:nth-child(3)').innerText;
                     let thumbs = wrap.querySelector('.card-act ul li:nth-child(4)').innerText;
                     let obj = {userName, content, from, forward, comments, thumbs};
+                    let savedTime = new Date();
                     onePageData.push(obj);
                 }
             }
