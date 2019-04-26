@@ -17,6 +17,7 @@
     "puppeteer": "latest"
   },
   "dependencies": {
+    "moment": "^2.24.0",
     "puppeteer": "latest"
   }
 }
