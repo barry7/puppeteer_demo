@@ -2,9 +2,9 @@ const jsUtil = require('./js-xlsx');
 
 const puppeteer = require('puppeteer');
 
-const _weibo_account = '';
-const _weibo_password = '';
-const _keyword = '';
+const ACCOUNT = '';
+const PASSWORD = '';
+const KEYWORD = '';
 let bro;
 let target_num = 1;
 let data = [];
@@ -36,13 +36,13 @@ async function addCookies(cookies_str, page, domain) {
     page.click('#weibo_top_public > div > div > div.gn_position > div.gn_login > ul > li:nth-child(3) > a');
     await page.waitFor('.username.input_wrap input');
     await page.type('.username.input_wrap input',
-        _weibo_account, {delay: 5});
+        ACCOUNT, {delay: 5});
     await page.type('.password.input_wrap input',
-        _weibo_password, {delay: 5});
+        PASSWORD, {delay: 5});
     // page.click('#weibo_top_public > div > div > div.gn_search_v2 > a');
     await page.waitFor('.W_ficon.ficon_mail.S_ficon');
     await page.waitFor('.gn_search_v2 input');
-    await page.type('.gn_search_v2 input', _keyword, {delay: 5});
+    await page.type('.gn_search_v2 input', KEYWORD, {delay: 5});
     page.click('.gn_search_v2 a');
     //等待微博卡片出现（需要手动输入验证码）
     await page.waitFor('.card-wrap', {
@@ -67,8 +67,8 @@ async function addCookies(cookies_str, page, domain) {
                     let forward = wrap.querySelector('.card-act ul li:nth-child(2)').innerText;
                     let comments = wrap.querySelector('.card-act ul li:nth-child(3)').innerText;
                     let thumbs = wrap.querySelector('.card-act ul li:nth-child(4)').innerText;
-                    let obj = {userName, content, from, forward, comments, thumbs};
-                    let savedTime = new Date();
+                    let savedTime = new Date().getTime();
+                    let obj = {userName, content, from, forward, comments, thumbs,savedTime};
                     onePageData.push(obj);
                 }
             }
@@ -76,7 +76,12 @@ async function addCookies(cookies_str, page, domain) {
             return onePageData;
         });
         data = data.concat(page_data);
-        page.click('a.next');
+
+        try {
+            page.click('a.next');
+        } catch (e) {
+            new Error(e)
+        }
         await page.waitForNavigation(0);
     }
     return data;

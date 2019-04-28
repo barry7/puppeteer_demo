@@ -2,184 +2,198 @@ let moment = require('moment');
 
 let example = [
     {
-        "userName": "兔玩游戏",
-        "content": "【NEST2019 Snake 0-2 EDG】\n\n上局精彩回顾：\nScout阿卡丽盲视野闪现Q打断回城，随后一Q双杀，干净利落\n\n英雄联盟 #NEST2019# ​",
-        "from": "53分钟前 来自 搜狗高速浏览器",
-        "forward": "转发 78",
-        "comments": "评论 72",
-        "thumbs": " 254"
+        "userName": "游民星空",
+        "content": "【玩家在《LOL》中剧透《复联4》剧情 被拳头封号三天】Reddit上一位玩家Laptop-Guy在《英雄联盟》板块发帖称，在游戏中剧透《复仇者联盟4》剧情会被拳头封号了三天。拳头官方发给玩家的邮件中写到：“我知道你很兴奋想要和其他人讨论最新的《复仇者联盟》电影，但向那些还没看过这部电影的玩家剧透，这 ​ 展开全文c",
+        "from": "24分钟前 来自 微博 weibo.com",
+        "forward": "转发 9",
+        "comments": "评论 39",
+        "thumbs": " 50",
+        "savedTime": 1556435446794
     },
     {
-        "userName": "游戏台",
-        "content": "这波对决什么起步？（via：英雄联盟jjking）\n英雄联盟 L游戏台的微博视频 ​",
-        "from": "49分钟前",
-        "forward": "转发 5",
+        "userName": "兔玩游戏",
+        "content": "【当敌方打野第七次从草丛中蹦出来Gank我的时候】\n\n敌方打野：啊哈！我又来了！\n我：行吧，好吧，随你吧，爱咋咋\n\n英雄联盟 L兔玩游戏的秒拍视频 ​",
+        "from": "20秒前 转赞人数超过80 来自 秒拍网页版",
+        "forward": "转发 22",
+        "comments": "评论 24",
+        "thumbs": " 66",
+        "savedTime": 1556435446797
+    },
+    {
+        "userName": "英雄联盟",
+        "content": "#IG冠军皮肤# 【iG冠军皮肤原始设计想法揭秘＆全员推销环节】\n@ig丶JackeyLove ：黑洞的门太小了不太满意。\n@iG_TheShy ：其实还是想选择锐雯的冠军皮肤的，但是比赛没用过，所以就选择了剑姬。\n@iGDuke ：16年夺冠的皮肤没有谨慎设计所以不太满意，这次好好设计了。\n\n接下来是全员广告时间——\n​ 展开全文c",
+        "from": "30秒前 转赞人数超过90 来自 微博 weibo.com",
+        "forward": "转发 11",
         "comments": "评论 44",
-        "thumbs": " 149"
+        "thumbs": " 89",
+        "savedTime": 1556435446798
     },
     {
-        "userName": "游戏圈资讯君",
-        "content": "#英雄联盟# 英雄联盟 KDA 阿狸Cos。Coser：Ekiholic ​",
-        "from": "今天12:01 来自 微博 weibo.com",
-        "forward": "转发 14",
-        "comments": "评论 16",
-        "thumbs": " 63"
-    },
-    {
-        "userName": "兔玩游戏",
-        "content": "【NEST2019 EDG 3-0 Snake】\n\n排空视野偷掉大龙成为比赛胜负手，恭喜EDG晋级线下赛！\nMVP：Meiko——洛\n\n英雄联盟 #NEST2019# ​",
-        "from": "20秒前 转赞人数超过80 来自 搜狗高速浏览器",
-        "forward": "转发 19",
-        "comments": "评论 81",
-        "thumbs": " 80"
-    },
-    {
-        "userName": "大电竞eSportsFocus",
-        "content": "#NEST2019# #英雄联盟#\n\nEDG开车五人进泉水， 3：0轻松击败SS 晋级线下赛！ ​",
-        "from": "30秒前 转赞人数超过20 来自 微博 weibo.com",
-        "forward": "转发 6",
-        "comments": "评论 9",
-        "thumbs": " 16"
-    },
-    {
-        "userName": "助手哥有点6",
-        "content": "【NEST2019 EDG vs SS 2：0】第三局:\n\nEDG五人随Scout瑞兹灵车冲泉水~随后EDG推掉SS基地，3:0轻取SS！\n英雄联盟 #NEST2019# ​",
-        "from": "34秒前 来自 微博 weibo.com",
+        "userName": "热门游戏视频",
+        "content": "英雄联盟假如皇子没勾到旗子 ​",
+        "from": "57秒前",
         "forward": "转发",
         "comments": "评论",
-        "thumbs": " 1"
+        "thumbs": "",
+        "savedTime": 1556435446798
     },
     {
-        "userName": "NEST全国电子竞技大赛",
-        "content": "#NEST2019# 恭喜EDG获得第三局比赛的胜利！晋级NEST2019《英雄联盟》贵阳总决赛！！！ ​",
-        "from": "41秒前 来自 微博 weibo.com",
+        "userName": "电竞小小生",
+        "content": "英雄联盟深渊巨口丝血反杀发条魔灵 L电竞小小生的微博视频 ​",
+        "from": "1分钟前 来自 微博网页",
         "forward": "转发",
         "comments": "评论",
-        "thumbs": " 1"
+        "thumbs": "",
+        "savedTime": 1556435446799
     },
     {
-        "userName": "3H曲线",
-        "content": "#NEST2019# 今日14：00 EDG - Snake\n竞猜+赛程直播：O网页链接\nEDG：\nTOP Sleepy\nJUG JieJie\nMID Scout\nADC iBoy\nSUP Meiko\n替补 EDG.Haro EDG.Hope\n\nSS：\nTOP Flandre\nJUG SofM\nMID Fenfen\nADC Asura\nSUP Maestro ​#英雄联盟# ​",
-        "from": "1分钟前 转赞人数超过400 来自 微博 weibo.com",
-        "forward": "转发 20",
-        "comments": "评论 20",
-        "thumbs": " 609"
-    },
-    {
-        "userName": "禹台长",
-        "content": "【英雄联盟】笑就完事了#英雄联盟# L禹台长的微博视频 ​",
-        "from": "2分钟前 来自 iPhone X",
+        "userName": "_GregRan",
+        "content": "@英雄联盟 请问什么时候会优化排位赛进入游戏机制，没一把都要等三分钟左右，没有考虑过区和区合并一下吗？每个区日活跃数数据真的不考虑吗？点击接受进去比赛没有确认的能不能有10秒钟惩罚？比赛三分钟的能不能给其他9个人各加两分表达对时间浪费的尊重？ ​",
+        "from": "1分钟前 来自 iPhone客户端",
         "forward": "转发",
         "comments": "评论",
-        "thumbs": ""
+        "thumbs": "",
+        "savedTime": 1556435446799
     },
     {
-        "userName": "英雄联盟新鲜事儿",
-        "content": "英雄联盟 LMS网友爆料，前FW教练叉烧或许下赛季会去V5当教练。 ​",
+        "userName": "LOL英雄那点事",
+        "content": "余小C和周淑怡连麦PK合跳（鸡你太美）全程高能场面极度舒适！ up：乐芙兰的小学弟英雄联盟那点事 #主播那点事# LLOL英雄那点事的微博视频 ​",
+        "from": "2分钟前 来自 微博 weibo.com",
+        "forward": "转发 1",
+        "comments": "评论 1",
+        "thumbs": " 4",
+        "savedTime": 1556435446800
+    },
+    {
+        "userName": "游戏迷你君",
+        "content": "【英雄联盟 张大仙】张大仙千里之外取敌首级，落地金色帅气收场致敬若风？ L游戏就要这么玩的秒拍视频 ​",
+        "from": "2分钟前 来自 微博云剪",
+        "forward": "转发",
+        "comments": "评论",
+        "thumbs": "",
+        "savedTime": 1556435446800
+    },
+    {
+        "userName": "游戏白小生",
+        "content": "哈哈哈哈这是真的孤儿亚索了\n\n英雄联盟 ​",
+        "from": "3分钟前 来自 iPhone客户端",
+        "forward": "转发",
+        "comments": "评论 6",
+        "thumbs": " 6",
+        "savedTime": 1556435446801
+    },
+    {
+        "userName": "玩加电竞LOL",
+        "content": "【韩服9.8版本各位置英雄强度排名：泰坦成为T1级别辅助】\n上路方面锐雯又回到了一姐之位，并且锐雯的胜率也来到了上单第一，武器和鳄鱼也再次回到了T1梯队，天使在改版之后也基本都在T1梯队之中。\n打野位方面没有什么变动，从胜率表现来看挖掘机也排在第一，挖掘机在这个版本仍然是打野位上分的不二之 ​ 展开全文c",
         "from": "3分钟前 来自 微博 weibo.com",
-        "forward": "转发",
-        "comments": "评论",
-        "thumbs": ""
+        "forward": "转发 2",
+        "comments": "评论 7",
+        "thumbs": " 5",
+        "savedTime": 1556435446801
     },
     {
-        "userName": "虎牙芜湖神",
-        "content": "芜湖神来了：听说我的意中人会踩着七彩祥云来娶我#芜湖神# #英雄联盟# L虎牙芜湖神的微博视频 ​",
+        "userName": "电竞小小生",
+        "content": "英雄联盟: 二级抓我就算了, 你还A我的兵。 L电竞小小生的秒拍视频 ​",
+        "from": "4分钟前 来自 微博网页",
+        "forward": "转发",
+        "comments": "评论",
+        "thumbs": "",
+        "savedTime": 1556435446802
+    },
+    {
+        "userName": "游戏情报局",
+        "content": "Ax英雄联盟教学20：教你如何玩转小鱼人，王者局对线细节 L游戏情报局的微博视频 ​",
+        "from": "5分钟前 来自 微博网页",
+        "forward": "转发",
+        "comments": "评论",
+        "thumbs": "",
+        "savedTime": 1556435446803
+    },
+    {
+        "userName": "游卡哥",
+        "content": "国外玩家在《#英雄联盟#》游戏中剧透《复仇者联盟4》剧情，遭网友举报，被拳头封号三天！请大家#在不剧透复联4的情况下讨论剧情# ​",
         "from": "7分钟前 来自 微博 weibo.com",
         "forward": "转发",
         "comments": "评论 1",
-        "thumbs": " 2"
+        "thumbs": " 3",
+        "savedTime": 1556435446803
     },
     {
-        "userName": "捞月狗英雄联盟",
-        "content": "英雄联盟\n情侣哪有基友好 ​",
-        "from": "8分钟前 转赞人数超过30 来自 超话",
-        "forward": "转发 1",
-        "comments": "评论 5",
-        "thumbs": " 31"
-    },
-    {
-        "userName": "电竞研究社",
-        "content": "#英雄联盟# 【Riot门口彩蛋或揭示新英雄来源：班德尔城】\n近日拳头设计师Ashekandi在推特上放出了拳头公司门口的新涂鸦，并表示这个图案是“前往班德尔城的入口”；值得一提的是，在今天公布的新英雄悠米预告视频中，悠米的书中也有着相同的图案，这是否意味着悠米是一位来自班德尔城的英雄呢 ​",
+        "userName": "游戏控",
+        "content": "#英雄联盟# 一位在LOL中剧透#复联4# 的玩家被拳头封号了三天 ​",
         "from": "8分钟前 来自 微博 weibo.com",
         "forward": "转发",
-        "comments": "评论",
-        "thumbs": " 2"
-    },
-    {
-        "userName": "助手哥有点6",
-        "content": "【NEST2019 EDG vs SS 2：0】第三局:\n\nJieJie盲僧敌方五人之中直接一脚踢出SS核心SofM螳螂！\n英雄联盟 #NEST2019# ​",
-        "from": "8分钟前 来自 微博 weibo.com",
-        "forward": "转发",
-        "comments": "评论",
-        "thumbs": ""
-    },
-    {
-        "userName": "虎扑电竞",
-        "content": "【SS 0-2 EDG】\n\n蜘蛛野区掌控雷电，EDG拿到赛点。\n\nJiejie的蜘蛛感觉有丶猛！\n\n英雄联盟 ​",
-        "from": "9分钟前 转赞人数超过10 来自 微博 weibo.com",
-        "forward": "转发",
-        "comments": "评论 4",
-        "thumbs": " 12"
-    },
-    {
-        "userName": "江南吴语1",
-        "content": "米易新山梯田，约有600年的悠久历史，梯田分布在海拔1000—3000多米的山坡上，景色秀丽。今天阳光灿烂，远处的米易县清晰可见，全体英雄联盟在此合影！ 2攀枝花·攀枝花保安营机场 ​",
-        "from": "8分钟前 来自 HUAWEI Mate 20 Pro",
-        "forward": "转发",
-        "comments": "评论",
-        "thumbs": ""
-    },
-    {
-        "userName": "英雄联盟新鲜事儿",
-        "content": "英雄联盟 Duke才是真！赢家！在昨天的比赛后Duke几乎满贯了LPL和LCK的所有冠军，大到联赛冠军小到杯赛冠军，还有一次MSI两次世界赛冠军，这个履历着实有些耀眼了 ​",
-        "from": "11分钟前 转赞人数超过300 来自 微博 weibo.com",
-        "forward": "转发 14",
-        "comments": "评论 125",
-        "thumbs": " 345"
-    },
-    {
-        "userName": "逹达仔Zz-",
-        "content": "微博视频和L推广引流薇V信KKHH7H的秒拍视频突然，她打了一个响指，然后笑了起来，“侯三哥，这个东西我就送给你吧，你若是参透了这机关，以后可要记得给我做一个比这个还要好看的。” ? ​",
-        "from": "10分钟前 来自 微博 weibo.com",
-        "forward": "转发",
-        "comments": "评论",
-        "thumbs": ""
-    },
-    {
-        "userName": "幽默搞笑娱乐榜姐",
-        "content": "调皮美少女迪丽热巴整蛊张云龙 问张云龙袜子香不香 #正义英雄联盟#经典幽默搞笑视频 L幽默搞笑娱乐榜姐的秒拍视频 ​",
-        "from": "10分钟前",
-        "forward": "转发",
-        "comments": "评论",
-        "thumbs": " 2"
-    },
-    {
-        "userName": "英雄联盟神吐槽",
-        "content": "【网友投稿】有人知道怎么样才可以打到这么高的胜率吗（匹配四千多场94%的胜率）\n英雄联盟 ​",
-        "from": "10分钟前",
-        "forward": "转发 26",
-        "comments": "评论 35",
-        "thumbs": " 45"
-    },
-    {
-        "userName": "兔玩游戏",
-        "content": "【NEST2019 Snake 0-2 EDG】\n\n恭喜EDG拿下第二局！\nMVP：01年的新人打野——JieJie蜘蛛！操作犀利，思路清晰\n\n英雄联盟 #NEST2019# ​",
-        "from": "12分钟前 转赞人数超过200 来自 搜狗高速浏览器",
-        "forward": "转发 46",
-        "comments": "评论 132",
-        "thumbs": " 174"
+        "comments": "评论 1",
+        "thumbs": " 4",
+        "savedTime": 1556435446804
     },
     {
         "userName": "畅游召唤师峡谷",
-        "content": "【英雄联盟】防御塔就是在针对我，狮子狗：寒冰明明比我先动手，你为什么不打他？ L畅游召唤师峡谷的微博视频 ​",
-        "from": "15分钟前 来自 微博网页",
+        "content": "【英雄联盟】女警被一炮秒杀！杰斯：我要掠夺对面复活的权利 L畅游召唤师峡谷的微博视频 ​",
+        "from": "10分钟前 来自 微博网页",
         "forward": "转发",
         "comments": "评论",
-        "thumbs": ""
+        "thumbs": "",
+        "savedTime": 1556435446804
+    },
+    {
+        "userName": "攒一身丶善良",
+        "content": "#英雄联盟#好气啊，不知道都多少次这样了，服务器网炸，延迟三千多，我退出游戏从新进去了，还是算我挂机，连5分钟都没有，这裁决之镰有毒吧 ，我上个分容易嘛我 ​",
+        "from": "11分钟前 来自 HUAWEI P20 Pro",
+        "forward": "转发",
+        "comments": "评论",
+        "thumbs": "",
+        "savedTime": 1556435446804
+    },
+    {
+        "userName": "游戏小萌妹",
+        "content": "李哥这个表情是好吃还是不好吃？\n\ntwi：bbosyuk\n英雄联盟 #faker# ​",
+        "from": "11分钟前 来自 微博 weibo.com",
+        "forward": "转发",
+        "comments": "评论",
+        "thumbs": "",
+        "savedTime": 1556435446805
+    },
+    {
+        "userName": "电竞小小生",
+        "content": "英雄联盟: 盲僧的几个花式操作, 哪个更帅一点呢? L电竞小小生的秒拍视频 ​",
+        "from": "12分钟前 来自 微博网页",
+        "forward": "转发",
+        "comments": "评论",
+        "thumbs": "",
+        "savedTime": 1556435446805
+    },
+    {
+        "userName": "丨白茶清风",
+        "content": "IG牛逼，王校长最帅英雄联盟 ​",
+        "from": "13分钟前 来自 HUAWEI P20",
+        "forward": "转发",
+        "comments": "评论",
+        "thumbs": "",
+        "savedTime": 1556435446805
+    },
+    {
+        "userName": "唯一美玉",
+        "content": "微博视频和L推广引流薇V信KKHH7H的秒拍视频自从重生之后，她一直都想找老父亲谈一谈这本书的问题，可是父亲避而不见，根本无从谈起。 ​",
+        "from": "14分钟前 来自 微博 weibo.com",
+        "forward": "转发",
+        "comments": "评论",
+        "thumbs": "",
+        "savedTime": 1556435446806
+    },
+    {
+        "userName": "开心的游戏酱",
+        "content": "#小酱趣图##英雄联盟#Sneaky女友晒出了《Fate/Grand Order》角色cosplay照，一如既往的性感风 ​",
+        "from": "14分钟前 来自 微博 weibo.com",
+        "forward": "转发",
+        "comments": "评论",
+        "thumbs": " 3",
+        "savedTime": 1556435446806
     }
-]
+];
 
-function getDate(str) {
+function getDate(str, timestamp) {
+    let savedTime = moment(timestamp);
     str = str.split('来自')[0].replace(/^\s*|\s*$/g, "");
     console.log(str);
     let m;
@@ -203,18 +217,18 @@ function getDate(str) {
         let time_str = str.split('前')[0];
         if (time_str && time_str.indexOf('秒') > -1) {
             let second = time_str.split('秒')[0];
-            m = moment(moment().toDate().getTime() - 1000 * second).format("YYYY-MM-DD HH:mm:ss");
+            m = moment(moment(savedTime).toDate().getTime() - 1000 * second).format("YYYY-MM-DD HH:mm:ss");
         } else if (time_str && time_str.indexOf('分钟') > -1) {
             let minute = time_str.split('分钟')[0];
-            m = moment(moment().toDate().getTime() - 60 * 1000 * minute).format("YYYY-MM-DD HH:mm:ss");
+            m = moment(moment(savedTime).toDate().getTime() - 60 * 1000 * minute).format("YYYY-MM-DD HH:mm:ss");
         } else if (time_str && time_str.indexOf('小时') > -1) {
             let hour = time_str.split('分钟')[0];
-            m = moment(moment().toDate().getTime() - 60 * 60 * 1000 * hour).format("YYYY-MM-DD HH:mm:ss");
+            m = moment(moment(savedTime).toDate().getTime() - 60 * 60 * 1000 * hour).format("YYYY-MM-DD HH:mm:ss");
         }
     }
     console.log(m)
 }
 
 for (let i = 0; i < example.length; i++) {
-    getDate(example[i].from)
+    getDate(example[i].from, example[i].savedTime);
 }
